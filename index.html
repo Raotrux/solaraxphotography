@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Andrew's Photos</title>
+<title>Solarax Photography</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -33,9 +33,14 @@ html {
   padding: 16px;
 }
 
-.logo {
-  height: 5%;
-  width: 5%;
+.container {
+  width: 300px;
+  border: dashed blue 1px;
+}
+
+.container img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .header-color{color:#fff!important;background-color:#3a4750!important}
@@ -53,8 +58,8 @@ html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar header-color w3-card" id="myNavbar">
-    <div class="w3-left w3-hide-small">
-      <a href="#home" class="w3-bar-item logo"><img src="/images/test/Solarax_logo.png"></a>
+    <div class="w3-left w3-hide-small container">
+      <a href="#home" class="w3-bar-item img"><img src="/images/test/Solarax_logo.png"></a>
     </div>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
